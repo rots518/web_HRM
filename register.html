@@ -22,42 +22,42 @@
 	<table height="30" align="center" cellpadding="0" cellspacing="2" width="100%" bgcolor="#D3D3D3">
 		<tbody>
 			<tr bgcolor="#FFFAFA">
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="home.html">HOME</a>
 					</b>
 				</td>
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="company_list.html">구인자</a>
 					</b>
 				</td>
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="employee_list">구직자</a>
 					</b>
 				</td>
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="work_list.html">일일작업</a>
 					</b>
 				</td>				
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="work_report.html">보고서</a>
 					</b>
 				</td>
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center">
 					<b>
 						<a href="print_SSN.html">주민등록증 인쇄</a>
 					</b>
 				</td>				
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="work_auth.html">수료증 인쇄</a>
 					</b>
 				</td>
-				<td class="top_menu" width="12.5%">
+				<td class="top_menu" width="12.5%" align="center"
 					<b>
 						<a href="etc.html">기타</a>
 					</b>
@@ -73,16 +73,45 @@
 				</td>
 			</tr>
 		</tbody>
-
-	<table>
-		<h3> 회원가입 </h3>
-		<p><label> 이름 : <input name = "name" placeholder = "이름 입력" required></label></p>
-		<p><label> ID : <input name = "id" placeholder = "아이디 입력" required> 
-			<input type = "button" value = "중복확인" required></label></p>
-		<p><label> 비밀번호 : <input type = "password" name ="password" placeholder = "비밀번호 입력"></label></p>
-		<p><label> 비밀번호 확인 : 
-		<p><label> 전번호 : <input name = "전화번호" place =
-
+	</table>
+	<table width ="100%" border="0" cellpadding ="0" cellspacing="0">
+		<tr>
+			<td>
+			</td>
+		</tr>
+	</table>
+	<table width ="100%" border="0" cellpadding ="0" cellspacing="20" bgcolor ="#FFFAFA">
+		<tbody>
+			<tr align="left" cellspacing="0%">
+				<td>
+				<h3> 회원가입 </h3>
+				<p><label> 이름 : <input name = "name" placeholder = "이름 입력" required>
+					</label>
+				</p>
+				<p><label> ID : <input name = "id" placeholder = "아이디 입력" required> 
+					<input type = "button" value = "중복확인" required>
+					</label>
+				</p>
+				<p><label> 비밀번호 : <input type = "password" name ="pw" placeholder = "비밀번호 입력"></label></p>
+				<p><label> 비밀번호 확인 : <input type ="password" name="repw" placeholder ="비밀번호 입력">
+					</label>
+				</p>
+				<p><label> 전화번호 : 
+					<select name ="전화번호" required>
+						<option value ="1">SKT</option>
+						<option value ="2">KT</option>
+						<option value ="3">LG</option>
+						<input name = "tel" placeholder ="012-3456-7890" required>
+					</label>
+				</p>
+				<p><label> 이메일 : <input name ="email" plaeholder = "apple@apple.com" required>
+					</label>
+				</p>
+					<input type = "button" value="회원가입" required>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 
 </html>
