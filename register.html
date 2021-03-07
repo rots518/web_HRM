@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<TITLE> 남부 HRM </TITLE>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="common.js"></script>
 </head>
-
 <body topmargin="1%" leftmargin="1%" rightmargin="1%" marginheight="1%" style="background-color:#F0FFF0">
 	<table height="30" align="center" cellpadding="0" cellspacing="2" width="100%" style="background-color:#FFFAFA">
 		<tbody align="center">
@@ -88,12 +88,12 @@
 				<p><label> 이름 : <input name = "name" placeholder = "이름 입력" required>
 					</label>
 				</p>
-				<p><label> ID : <input name = "id" placeholder = "아이디 입력" required> 
+				<p><label> ID : <input id = "id" placeholder = "아이디 입력" required> 
 					<input type = "button" value = "중복확인" required>
 					</label>
 				</p>
-				<p><label> 비밀번호 : <input type = "password" name ="pw" placeholder = "비밀번호 입력"></label></p>
-				<p><label> 비밀번호 확인 : <input type ="password" name="repw" placeholder ="비밀번호 입력">
+				<p><label> 비밀번호 : <input type = "password" id ="pw" placeholder = "비밀번호 입력"></label></p>
+				<p><label> 비밀번호 확인 : <input type ="password" id="repw" placeholder ="비밀번호 입력">
 					</label>
 				</p>
 				<p><label> 전화번호 : 
@@ -107,7 +107,8 @@
 				<p><label> 이메일 : <input name ="email" plaeholder = "apple@apple.com" required>
 					</label>
 				</p>
-					<input type = "button" value="회원가입" required>
+					<input type = "button" value="회원가입" onclick="create_id();">
+					<input type ="button" value="뒤로가기" onclick="back();">
 				</td>
 			</tr>
 		</tbody>
