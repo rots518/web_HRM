@@ -1,0 +1,97 @@
+<!doctype html>
+<HTML>
+
+<head>
+	<meta charset="utf-8">
+	<TITLE> 남부 HRM </TITLE>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="common.js"></script>
+</head>
+
+<body topmargin="1%" leftmargin="1%" rightmargin="1%" marginheight="1%" style="background-color:#F0FFF0">
+	<table height="30" align="center" cellpadding="0" cellspacing="2" width="100%" style="background-color:#FFFAFA">
+		<tbody align="center">
+			<tr>
+				<td>
+					<p style="font-size:20px">Welcome to <strong><u>남부 HRM</u></strong></font></p>
+					<p style="font-size:14px"><? include ="time_template.php"; ?></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<table height="30" align="center" cellpadding="0" cellspacing="2" width="100%" bgcolor="#D3D3D3">
+		<tbody>
+			<tr bgcolor="#FFFAFA">
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="home.html">HOME</a>
+					</b>
+				</td>
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="company_list.html">구인자</a>
+					</b>
+				</td>
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="employee_list">구직자</a>
+					</b>
+				</td>
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="work_list.html">일일작업</a>
+					</b>
+				</td>				
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="work_report.html">보고서</a>
+					</b>
+				</td>
+				<td class="top_menu" width="12.5%" align="center">
+					<b>
+						<a href="print_SSN.html">주민등록증 인쇄</a>
+					</b>
+				</td>				
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="work_auth.html">수료증 인쇄</a>
+					</b>
+				</td>
+				<td class="top_menu" width="12.5%" align="center"
+					<b>
+						<a href="etc.html">기타</a>
+					</b>
+				</td>						
+			</tr>
+		</tbody>
+	</table>
+	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#DCDCDC">
+		<tbody>
+			<tr align="center">
+				<td>
+					<table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="006dae"></table>
+				</td>
+			</tr>
+		</tbody>
+	<table width ="100%" border="0" cellpadding ="0" cellspacing="20" bgcolor ="#FFFAFA">
+		<tbody>
+			<tr align="left" cellspacing="0%">
+				<td>
+				<h3> 로그인 </h3>
+
+				<p><label> ID : <input id = "id" placeholder = "아이디 입력" required> 
+					</label>
+				</p>
+				<p><label> 비밀번호 : <input type = "password" id ="pw" placeholder = "비밀번호 입력">
+					</label>
+				</p>
+					<input type = "button" value="로그인" onclick="login();">
+					<a href="register.html"><input type = "button" value="회원가입"></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
